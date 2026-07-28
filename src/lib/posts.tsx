@@ -13,8 +13,8 @@ export const posts: Post[] = [
   {
     slug: "leather-on-kashmir-willow",
     title: "Leather on kashmir willow",
-    date: "2026-07-27",
-    displayDate: "July 2026",
+    date: "2026-03-01",
+    displayDate: "March 2026",
     description: "a tale of childhood and dreams",
     body: () => (
       <>

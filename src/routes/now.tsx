@@ -37,7 +37,7 @@ function Now() {
             <p className="nav-link uppercase tracking-wider text-xs">Projects</p>
             <ul className="mt-4 space-y-3 text-slate-muted">
               <li>
-                <span className="text-foreground font-medium">Traffic Signals</span> &mdash; Optimising the VAC systems present in traffic signals throughout India as part of my internship at the Indian Institute of Science, Bangalore.
+                <span className="text-foreground font-medium">Traffic Signals</span> &mdash; Optimising the VAC systems present in traffic signals throughout India.
               </li>
               <li>
                 <span className="text-foreground font-medium">Quantum-Secure AVs</span> &mdash; Working to make autonomous vehicles quantum secure.
