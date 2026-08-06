@@ -30,65 +30,65 @@ export const Route = createFileRoute("/pictures")({
 });
 
 const images = [
-  { 
-    src: pic1, 
+  {
+    src: pic1,
     type: "image",
     alt: "A thin crescent moon in a deep purple and red sunset sky over a quiet street",
-    tagline: "Taken near the sankey tank road, the traffic makes it better" 
+    tagline: "Taken near the sankey tank road, the traffic makes it better"
   },
-  { 
-    src: pic2, 
+  {
+    src: pic2,
     type: "image",
     alt: "A dirt path through dense green forest foliage with sunrays filtering through the trees",
-    tagline: "KP walking along the etheral stairs that lead up to a waterfall in Gokarna" 
+    tagline: "KP walking along the etheral stairs that lead up to a waterfall in Gokarna"
   },
-  { 
-    src: pondi, 
+  {
+    src: pondi,
     type: "video",
     alt: "A video of scenic seasets in pondicherry",
-    tagline: "seasets in pondicherry" 
+    tagline: "seasets in pondicherry"
   },
-  { 
-    src: heyjude, 
+  {
+    src: heyjude,
     type: "video",
     alt: "A video showing the ending of a choir rendition of hey jude by the beatles",
-    tagline: "the ending of a choir rendition of hey jude by the beatles" 
+    tagline: "the ending of a choir rendition of hey jude by the beatles"
   },
-  { 
-    src: pic5, 
+  {
+    src: pic5,
     type: "image",
     alt: "Mural of a large fish with red roses inside it on a restaurant wall under bamboo ceiling",
-    tagline: "restaurant in pondicherry" 
+    tagline: "restaurant in pondicherry"
   },
-  { 
-    src: pic4, 
+  {
+    src: pic4,
     type: "image",
     alt: "Cows grazing in a wide green field with rolling hills and a cloudy sky",
-    tagline: "somewhere on the way to mangalore" 
+    tagline: "somewhere on the way to mangalore"
   },
-  { 
-    src: pic6, 
+  {
+    src: pic6,
     type: "image",
     alt: "Five motorcycles parked on a grassy field near a body of water under a cloudy sky",
-    tagline: "5 bikes in one frame - KRS" 
+    tagline: "5 bikes in one frame - KRS"
   },
-  { 
-    src: pic7, 
+  {
+    src: pic7,
     type: "image",
     alt: "Three motorcyclists on a green field overlooking a lake with a Triumph Scrambler 400X in the foreground",
-    tagline: "scram, dad, me" 
+    tagline: "scram, dad, me"
   },
-  { 
-    src: pic8, 
+  {
+    src: pic8,
     type: "image",
     alt: "A black and white printed poster of a nun giving the middle finger with the text: FUCKS I GIVE NUN!",
-    tagline: "should've bought this" 
+    tagline: "should've bought this"
   },
-  { 
-    src: pic3, 
+  {
+    src: pic3,
     type: "image",
     alt: "A black laundry hamper with the text: Laundry Today or Naked Tomorrow",
-    tagline: "my friends room" 
+    tagline: "my friends room"
   },
 ];
 
@@ -172,7 +172,7 @@ function Pictures() {
               />
             )}
             {images[open].tagline ? (
-              <div 
+              <div
                 className="w-full md:w-64 text-center md:text-left shrink-0"
                 onClick={(e) => e.stopPropagation()}
               >
